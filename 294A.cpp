@@ -70,12 +70,8 @@ int32_t main()
     cin.tie(0);
     cout.tie(NULL);
 
-    tit
 
-        while (t--)
-
-    {
         tests();
-    }
+
     return 0;
 }
