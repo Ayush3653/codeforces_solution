@@ -32,14 +32,14 @@ int par[MX_SZ];
 
 void tests()
 {
-    int m,n;
-    cin>>m>>n;
-    int rem = m % n;
-    for(int i = 0; i < (n - rem); i++){
-        cout<<(m/n)<<" ";
+    int a,b;
+    cin>>a>>b;
+    int r=a%b;
+    f0(i,b-r){
+        cout<<a/b<<" ";
     }
-    for(int i = 0; i < rem; i++){
-        cout<<(m/n + 1)<<" ";
+    f0(i,r){
+        cout<<a/b + 1<<" ";
     }
 }
 
