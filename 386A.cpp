@@ -32,7 +32,21 @@ int par[MX_SZ];
 
 void tests()
 {
-
+    int a,c=0,d;
+    cin>>a;
+    int b[a];
+    f0(i,a){
+        cin>>b[i];
+        c=max(c,b[i]);
+    }
+    f0(i,a){
+        if(b[i]==c){
+            d=i;
+            break;
+        }
+    }
+    sort(b,b+a);
+    cout<<d+1<<" "<<b[a-2];
 }
 
 int32_t main()
@@ -42,12 +56,6 @@ int32_t main()
     cin.tie(0);
     cout.tie(NULL);
 
-    tit
-
-        while (t--)
-
-    {
         tests();
-    }
     return 0;
 }
