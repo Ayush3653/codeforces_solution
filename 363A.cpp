@@ -34,6 +34,10 @@ void tests()
 {
     int a;
     cin>>a;
+    if(a==0){
+        cout<<"O-|-OOOO\n";
+        exit(0);
+    }
     while(a!=0){
     switch(a%10){
         case 0:
