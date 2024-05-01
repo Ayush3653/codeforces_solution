@@ -30,51 +30,7 @@ int par[MX_SZ];
 
 void tests()
 {
-    int a,b;
-    string c, d;
-        cin>>c;
-        cin>>d;
-        int r = 50-c[1];
-        char t = c[0];
-        int n = 50-d[1];
-        char m = d[0];
-        int w = t-97;
-        int z = m-97;
-        int x = abs(8-r+97-(int)t);
-        int y = abs(8-t+97-(int)m);
-        int k = x;
-        int l = y;
-        int v = abs(z-k);
-            if(x > y){
-                k=k-x+1;
-                cout<<k<<'\n';
-                if(z > w)
-                while(k!=0){
-                    cout<<"RU\n";
-                    k--;
-                }
-                if(w > z)
-                while(k!=0){
-                    cout<<"LU\n";
-                    k--;
-                }
-            }
-            k=x;
-            l=y;
-            if(x < y){
-                k=k+y;
-                cout<<k<<'\n';
-                if(z > w)
-                while(v!=0){
-                    cout<<"RD\n";
-                    v--;
-                }
-                if(w > z)
-                while(k!=0){
-                    cout<<"LD\n";
-                    k--;
-                }
-            }
+//no
 }
 
 int32_t main()
